@@ -1,0 +1,25 @@
+{
+  "name": "@ai-native-solutions/fallmail-api",
+  "version": "1.0.0",
+  "description": "FallMail HTTP API — Express wrapper around the SDK. Docker-ready.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "fallmail-api": "src/index.js" },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE", "Dockerfile", "docker-compose.yml"],
+  "keywords": ["fallmail", "http", "api", "express", "p2p", "did", "encrypted"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallmail-api"
+  },
+  "homepage": "https://sjgant80-hub.github.io/fallmail-api/",
+  "dependencies": {
+    "@ai-native-solutions/fallmail-sdk": "^1.0.0",
+    "express": "^4.19.0"
+  },
+  "publishConfig": { "access": "public" }
+}
